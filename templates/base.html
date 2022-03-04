@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css') }}">
+   {% block head %}{% endblock %} <!--This is Jinja two syntax, this is a template engine that falsk uses. 
+    Basically we're doing here is we're creating a block in the template. And this block is where going to insert our code
+on all the other pages that inherit this template-->
+</head>
+<body>
+    {% block body %}{% endblock %}
+</body>
+</html>
