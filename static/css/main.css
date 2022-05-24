@@ -1,4 +1,64 @@
-body {
+body, html {
     margin: 0;
-    font-family: sans-serif;
+    font-family:sans-serif;
+    background-color: rgb(168, 211, 196);
 }
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+}
+
+h4{
+    font-family:monospace;
+    font-size: 18px;
+    font-style:initial; 
+}
+.content {
+    margin: auto;
+    width: 100px;
+}
+
+table, td, th {
+    border: 1px solid rgb(10, 10, 10);
+    border-collapse: collapse;
+    border-width: 2px;
+    
+}
+
+table {
+    margin: auto;
+    width: 50%;
+    align-content: center;
+   
+}
+
+th {
+    height: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    font-size:larger;
+    color: rgb(0, 0, 0);
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-size:larger;
+    color: rgb(0, 0, 0);
+}
+
+.form {
+    margin-top: 30px;
+    padding-left: 30%;    
+}
+
+#content {
+    width: 50%;
+    box-sizing: 10px;
+    border-style:groove;
+    border-width: 2.5px; 
+}
+
