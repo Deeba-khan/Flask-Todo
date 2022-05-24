@@ -32,7 +32,7 @@ def index():
             db.session.commit()
             return redirect('/')
         except:
-            return 'There was an issue adding your task'
+            return 'There was an issue adding task'
 
     else:
         tasks = Todo.query.order_by(Todo.date_created).all()
